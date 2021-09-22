@@ -26,10 +26,6 @@
   * NB
     * → vérifier que le changement est répercuté dans le repo élève
 
-****
-à faire
-****
-
 ## `step3`:
 
   * l'élève modifie la **`ligne #4`** dans le fichier `file1.md`
@@ -44,3 +40,28 @@
     * → observer le graphe des commits
     * → vérifier l'état des modifications pendantes
 
+****
+à faire
+****
+
+## `step4`:
+
+  essentiellement la même chose que le `step3`, mais les deux changements concernent **la même ligne**
+
+  * l'élève modifie la **`ligne #6`** dans le fichier `file1.md`  
+    par exemple en y mettant  
+    `6 studentboom`
+  * l'enseignant publie un changement **sur la même ligne**, qui contient  
+    `6 teacherboom`
+  * on essaie d'appliquer la même approche qu'au `step3`
+  * la fusion est commencée, mais déclenche un **conflit**
+  * l'élève résoud le conflit:
+    * il édite manuellement le fichier `file1.md`
+    * pour réconcilier les deux modifications,  
+      par exemple en gardant comme 6-ème ligne  
+      `6 studentboom teacherboom`
+    * il peut alors terminer la fusion
+    * pour cela il ajoute `file1.md` avec `git add`
+    * et conclut avec `git merge --continue`
+  * NB
+    * → observer comment le contenu de `file1.md` est annoté autour du conflit, pour montrer les deux versions candidates
