@@ -18,10 +18,6 @@
   * NB
     * → vérifier que le changement est répercuté dans le repo élève
 
-****
-à faire
-****
-
 ## `step2`:
 
   * l'enseignant publie du nouveau contenu,  
@@ -29,3 +25,22 @@
   * l'élève tire avec `git pull` 
   * NB
     * → vérifier que le changement est répercuté dans le repo élève
+
+****
+à faire
+****
+
+## `step3`:
+
+  * l'élève modifie la **`ligne #4`** dans le fichier `file1.md`
+  * l'enseignant publie une nouvelle version dans laquelle il a modifié la **`ligne #2`**
+  * l'élève essaie de tirer avec `git pull`  
+  il constate que cela ne fonctionne pas
+  * l'élève **crée un commit** avec son changement  
+  (la `ligne 4` du fichier `file1.md`, donc)
+  * il tire à nouveau
+  * NB
+    * → vérifier que les 2 modifications ont été fusionnées dans `file1.md`
+    * → observer le graphe des commits
+    * → vérifier l'état des modifications pendantes
+
