@@ -40,10 +40,6 @@
     * → observer le graphe des commits
     * → vérifier l'état des modifications pendantes
 
-****
-à faire
-****
-
 ## `step4`:
 
   essentiellement la même chose que le `step3`, mais les deux changements concernent **la même ligne**
